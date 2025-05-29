@@ -82,7 +82,7 @@ We can also see in the example shown that John updated the help topic to properl
 </p>
 
 <p>
-The images above displays how to change the following:
+The images above displays how to change the following and by clicking on the cursor:
 
 - SLA
 - Help Topics
