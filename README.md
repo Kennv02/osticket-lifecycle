@@ -3,7 +3,8 @@
 </p>
 
 <h1>osTicket - Ticket Lifecycle: Intake Through Resolution</h1>
-This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.<br />
+This tutorial outlines the lifecycle of a ticket—from intake to resolution—within the open-source help desk ticketing system osTicket.
+<br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -29,7 +30,7 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 <img src="https://github.com/user-attachments/assets/17ffadc0-571e-4a38-823a-6272a51969af" />
 </p>
 <p>
-In the final segment of the osticket system process, the final portion of the procedure will focus on Ticket Lifecycle examples from creating a ticket, assigning severity of ticket, priority, and assigned agent to working the issue and resolving the ticket. 
+In the final segment of the osticket system process, the final portion of the procedure will focus on Ticket Lifecycle examples from creating a ticket and assigning its severity, priority, and assigned agent, to working on and resolving the issue.
 
 - To begin creating a ticket as a user, go to the following - http://localhost/osTicket and begin creating the ticket as it will be submitted to the osticket system for an agent to assist with the ticket.
 - Follow the prompt and fill it out before attempting to create the ticket. I used karen as the user and used fake personal information
@@ -42,14 +43,14 @@ In the final segment of the osticket system process, the final portion of the pr
 <img src="https://github.com/user-attachments/assets/62b8218f-b8f5-4001-939e-fd89371eb0ab" />
 </p>
 <p>
-This section provides an overview of the ticket from the agent/admin(s) perspective. As noted in the top sction of the ticket, the ticket is "open" which indicates it is unresolved and awaiting attention. See explanation of the headers below: 
+This section provides an overview of the ticket from the agent/admin(s) perspective. As noted in the top sction of the ticket, the ticket is "Open", indicating that it is unresolved and awaiting attention. See explanation of the headers below: 
 
   - Priority: Indicates the urgency of the ticket
   - Department: What department the ticket is assigned to.
   - Date: When the ticket was submitted.
   - Source: How the ticket was submitted by the user (Please note, users can submit a ticket through various ways. Some of the most common are: Web, Mobile, In person)
   - Assigned to: The agent/admin assigned to the ticket. It is currently unassigned and will be assigned to an agent.
-  - SLA(Service Level Agreement): The severity of the ticket to which how fast the ticket is addressed depends in the SLA level.
+  - SLA (Service Level Agreement): The severity of the ticket to which how fast the ticket is addressed depends in the SLA level.
   - Due date: When the ticket is expected to be resolved.
 
 The ticket thread will give you an overview of the ticket history along with messages from user and agents. Essentially, this ticket showcases how the incident is logged and displays how impactful the incident is. 
@@ -100,7 +101,7 @@ In the message thread, John elaborates and briefly provides an overview of the t
 <br />
 
 <p>
-<img src="https://github.com/user-attachments/assets/00b6d0f1-473a-4bcc-a755-73ad66d1a042"
+<img src="https://github.com/user-attachments/assets/00b6d0f1-473a-4bcc-a755-73ad66d1a042" />
 
 To escalate the ticket and assign it to the proper department and agent, go to:
 
@@ -111,21 +112,25 @@ The ticket is now assigned to the Online Banking team and Jane Doe will be the a
 <br />
 
 <p>
-<img src="https://github.com/user-attachments/assets/62ceaea1-88dd-4ac8-863b-571a682d4674"
+<img src="https://github.com/user-attachments/assets/62ceaea1-88dd-4ac8-863b-571a682d4674" />
 
-Considering Jane is the agent assigned to the ticket, Jane will have to log in to the admin portal to work on the ticket. Log out of the admin account from the current admin and log back in using Jane or your specified agents credentials.
+Since Jane is the assigned agent, Jane will have to log in to the admin portal to work on the ticket. Log out of the admin account from the current admin and log back in using Jane or your specified agents credentials.
 </p>
 
 <p> 
-<img src="https://github.com/user-attachments/assets/f5fcd8bd-a462-4eac-8beb-8f964db618bb"
-
-Logged in as Jane, we can assume that Jane successfully worked on the ticket andd posted a response detailing the root of the issue. It weas noted that the root cause of the issue was the recent update. The vendor was notified and are pending a fix. 
-The response will get posted and Jane may close the ticket and changed the status from Open to Resolved. 
+<img src="https://github.com/user-attachments/assets/f5fcd8bd-a462-4eac-8beb-8f964db618bb"/>
 </p>
 
-<p></p>
+<p>
+Logged in as Jane, we can assume that Jane successfully worked on the ticket and posted a response detailing the root of the issue. It was noted the root cause of the issue was the recent update. The vendor was notified and are pending a fix. 
+Once the response is posted, Jane can close the ticket and change its status from "Open" to "Resolved"
+</p>
+
+<p>
 See below: 
-<img src="https://github.com/user-attachments/assets/d216da43-4d71-4a7b-890e-c3228b36c65d"
-</p>
 
+<p>
+<img src="https://github.com/user-attachments/assets/d216da43-4d71-4a7b-890e-c3228b36c65d" />
 </p>
+<br />
+
